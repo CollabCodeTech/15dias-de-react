@@ -1,8 +1,9 @@
 .square-collab {
+    box-sizing: border-box;
     background-color: transparent;
     border: 2px solid #6c5ce7;
-    width: 100px;
-    height: 100px;
+    width: 33.333%;
+    height: 33.333%;
     font-size: 30px;
     color: #e84393;
     cursor: pointer;
