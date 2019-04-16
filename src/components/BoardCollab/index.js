@@ -6,8 +6,6 @@ import "./styles.css";
 
 const createSquares = () => {
     const squares = Array(9).fill();
-    
-    console.log("Valor do array:", squares);
 
     return squares.map((square, index) => <SquareCollab key={index} />)
 }
