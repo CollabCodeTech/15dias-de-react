@@ -21,8 +21,8 @@ class SquareCollab extends Component {
             >
                 {this.state.content}
             </button>
-        )
-    }
+        );
+    };
 }
 
 export default SquareCollab;
