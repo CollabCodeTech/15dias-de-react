@@ -8,5 +8,13 @@
     color: #e84393;
     cursor: pointer;
     vertical-align: top;
-    outline: none;
+}
+
+
+/* DON'T DO IT */
+.square-collab::-moz-focus-inner {
+    border: none;
+}
+.square-collab:focus {
+    outline: 0;
 }
